@@ -6,7 +6,7 @@ INSTALL_DIR="${LIGHTPANDA_DIR:-$HOME/.local/bin}"
 BINARY_NAME="lightpanda"
 
 if [[ $# -gt 1 ]]; then
-    error 'Too many arguments, only a specific tag of ligthpanda to install is allowed. (e.g. "v0.2.5")'
+    error 'Too many arguments, only a specific tag of lightpanda to install is allowed. (e.g. "v0.2.5")'
 fi
 
 if [[ $# = 1 ]]; then
